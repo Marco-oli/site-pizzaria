@@ -1,0 +1,220 @@
+* {
+    font: sans-serif;
+}
+
+body {
+    background-image: url(imgs/banner.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+header {
+    margin-top: 25px;
+    height: 80px;
+}
+
+header > nav {
+    float: right;
+}
+
+header > nav > a{
+    padding: 25px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    text-align: center;
+}
+
+/* TAGS com IDS*/
+
+section#icones{
+    display: flex;
+    justify-content: center;
+    height: 460px;
+    margin-top: 70px;
+}
+
+
+
+section#logo p {
+    margin-top: 35px;
+    position: relative;
+    line-height: 27px;
+}
+
+section#logo a {
+    margin-top: 25px;
+    padding: 7px 7px 3px;
+    text-decoration: none;
+}
+
+section#depoimento h1{
+    font-size: 32px;
+    color: white;
+}
+
+section#depoimento p {
+    font-size: 28px;
+    padding: 29px 249px;
+}
+
+section#depoimento h5{
+    font-size: 14px;
+    color: white;
+}
+
+section#depoimento h6{
+    font-size: 10px;
+}
+
+section#depoimento a{
+    width: 115px;
+    height: 25px;
+    background: #FFF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #9ac551;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section#depoimento img{
+    padding-right: 300px;
+}
+
+
+figure.figuras img{
+    padding-top: 60px;
+}
+
+figure.figuras h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+figure.figuras h2{
+    color: #9ac551;
+    font-size: 22px;
+    margin-top: 3px;
+}
+
+figure.figuras p {
+    margin: inherit;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+figure.figuras a {
+    width: 115px;
+    height: 25px;
+    background: #9ac551;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+figure.figuras a:hover{
+ background: white;
+ box-sizing: border-box;
+ color: #9ac551;
+ border: 1px solid #9ac551;
+}
+
+footer {
+    background-color: #F6F8F9;
+    height: 74px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.esq a {
+    text-decoration: none;
+    font-family: monospace;
+}
+
+div.dir a {
+    text-decoration: none;
+    font-family: monospace;
+}
+
+
+#depoimento {
+    background-color: #9ac551;
+    margin-top: -40px;
+    padding-top: 244px;
+    height: 860px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 360px;
+   height: 570px;
+   color: white; 
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+}
+
+/* CLASSES*/
+
+.figuras {
+    width: 340px;
+    height: 504px;
+    background: white;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 25px;
+    border: 1px solid #9ac551;
+    transition: all 1s ease;
+}
+
+.figuras:hover{
+    border: 1px solid aqua;
+}
+
+.logomarca{
+    text-align: center;
+}
+
+.botao {
+    width: 115px;
+    height: 25px;
+    background: #9ac551;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-azul{
+    height: 195px;
+    margin: 50px 0px;
+}
+
+.esq {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    color: #54565A;
+    text-decoration: none;
+}
+
+.dir {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    }
